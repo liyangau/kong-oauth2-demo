@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Leckerli+One");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+
+ul.sidenav li a {
+  padding: 0 16px;
+}
+
+#site-title {
+  font-family: "Leckerli One", cursive;
+}
+
+pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-break: keep-all;       /* Internet Explorer 5.5+ */
+}
+
+#result_message a {
+  margin-right: 0 !important;
+  text-transform: none !important;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+  width: 150px;
+  margin: auto;
+}
+
+.section-title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 1.8rem;
+  padding-top: 0.7rem;
+}
+
+.section-system {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.chips .chip {
+  background-color: #26a69a;
+  color: white;
+}
+
+.card .print_result {
+  /* font-family: 'Courier New', Courier, monospace; */
+  font-size: 90%;
+  /* word-wrap: break-word; */
+  overflow: auto;
+}
+
+.card-action {
+  margin-left: 0.25rem;
+}
+
+/* change Radio Button color*/
+input[type="radio"]:checked + span::after,
+[type="radio"].with-gap:checked + span::after {
+  background-color: #26a69a;
+}
+
+input[type="radio"]:checked + span::after,
+[type="radio"].with-gap:checked + span::before,
+[type="radio"].with-gap:checked + span::after {
+  border: 2px solid #26a69a;
+}
+
+/* change footer color */
+.page-footer {
+  background-color: #26a69a !important;
+  padding-bottom: 20px;
+}
+
+/* change footer signature */
+.footer-signature {
+  font-family: "Comfortaa", cursive;
+  color: white;
+  font-size: 85%;
+}
+
+.footer-signature a {
+  color: #00ffbf;
+}
+
+.swtich-url {
+  padding-top: 10px !important;
+  padding-right: 40px !important;
+  margin-top: 1rem;
+}
+
+i.material-icons {
+  vertical-align: middle !important;
+}
+
+nav i.material-icons {
+  padding-top: 0.2em;
+  margin-left: 0.1em;
+}
+
+#result_content table {
+  table-layout: fixed;
+}
+
+#result_content th.record {
+  width: 10rem;
+}
